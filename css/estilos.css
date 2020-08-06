@@ -1,0 +1,18 @@
+.borde1 {
+    border: 2px solid red;
+}
+
+.borde2 {
+    border: 2px solid blue;
+}
+
+.borde3 {
+    border: 2px dotted green;
+}
+
+.menu {
+    font-family: 'Rowdies', cursive;
+    height: 20vh;
+}
+
+
