@@ -1,18 +1,35 @@
 .borde1 {
-    border: 2px solid red;
+  border: 2px solid red;
 }
 
 .borde2 {
-    border: 2px solid blue;
+  border: 2px solid blue;
 }
 
 .borde3 {
-    border: 2px dotted green;
+  border: 2px dotted green;
 }
 
 .menu {
-    font-family: 'Rowdies', cursive;
-    height: 20vh;
+  font-family: "Crafty Girls", cursive;
+  height: 20vh;
+  display: flex;
+  -ms-flex-align: center;
+  justify-content: space-around;
 }
 
+.menu1 {
+  background-color: #540d6e;
+}
 
+.menu2 {
+  background-color: #ee4266;
+}
+
+.menu3 {
+  background-color: #2ec4b6;
+}
+
+.vcentrado {
+  margin: auto !important;
+}
