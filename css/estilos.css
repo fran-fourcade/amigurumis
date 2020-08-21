@@ -19,17 +19,27 @@
 }
 
 .menu1 {
-  background-color: #540d6e;
+  background-color: #cb6dee;
 }
 
 .menu2 {
-  background-color: #ee4266;
+  background-color: #f16a87;
 }
 
 .menu3 {
-  background-color: #2ec4b6;
+  background-color: #80d8db;
 }
 
 .vcentrado {
   margin: auto !important;
+}
+
+a:link,
+a:visited {
+  color: #fff;
+}
+
+a:hover,
+a:active {
+  color: #000;
 }
