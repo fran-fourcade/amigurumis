@@ -43,3 +43,7 @@ a:hover,
 a:active {
   color: #000;
 }
+
+footer {
+  margin-top: 2em;
+}
