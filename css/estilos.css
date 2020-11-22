@@ -10,6 +10,11 @@
   border: 2px dotted green;
 }
 
+body {
+  background: rgb(255,159,240);
+background: linear-gradient(0deg, rgba(255,159,240,1) 22%, rgba(132,255,249,0.711922268907563) 48%, rgba(255,255,203,1) 100%);
+}
+
 .menu {
   font-family: "Crafty Girls", cursive;
   height: 20vh;
