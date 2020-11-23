@@ -1,13 +1,54 @@
 .borde1 {
-  border: 2px solid red;
+  border: 15px solid white;
 }
 
-.borde2 {
-  border: 2px solid blue;
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+
+/* The Image container */
+.img-hover-zoom {
+  /*height: 300px; /* Modify this according to your need */
+  overflow: hidden; /* Removing this will break the effects */
 }
 
-.borde3 {
-  border: 2px dotted green;
+  /* Quick-zoom Container */
+.img-hover-zoom--quick-zoom img {
+  transform-origin: 50 50;
+  transition: transform .25s, visibility .25s ease-in;
+}
+
+/* The Transformation */
+.img-hover-zoom--quick-zoom:hover img {
+  transform: scale(1.5);  
 }
 
 body {
@@ -44,11 +85,19 @@ a:visited {
   color: #fff;
 }
 
-a:hover,
 a:active {
-  color: #000;
+  border: 1px solid #fff;
+}
+
+.menu1:hover, .menu2:hover, .menu3:hover,
+.menu1:active, .menu2:active, .menu3:active {
+    filter: brightness(0.6);
+    color: #fff;
+    border: #fff 1 px solid;
 }
 
 footer {
   margin-top: 2em;
+  font-family: "Crafty Girls" ;
 }
+

@@ -4,8 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-
-    <link rel="shortcut icon" href="./favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="./favicon.png" type="image/png" />
     <title>Amigurumis!</title>
 
     <link rel="stylesheet" href="./css/bulma.min.css" />
@@ -31,49 +30,64 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="./js/jquery-3.5.1.min.js"></script> 
+    <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/miprogramacion.js"></script>
   </head>
 
   <body>
     <div class="columns">
       <div class="column is-full-mobile has-text-centered">
-        <a href="index.html"><img
-          src="./img/logo.png"
-          alt="Logo de Amigurumis"
-          class="magictime tinUpIn"
+        <a href="index.html"
+          ><img
+            src="./img/logo.png"
+            alt="Logo de Amigurumis"
+            class="magictime tinUpIn"
         /></a>
       </div>
     </div>
     <div class="container">
       <div class="columns is-centered is-mobile">
-        <div class="column menu box menu1">
-          <h1 class="subtitle has-text-light vcentrado has-text-weight-bold">
-            <a href="#" id="adultos">Adultos</a>
+        <a href="#" id="adultos" class="column menu box menu1">
+          <h1 id="menu1" class="title has-text-light vcentrado has-text-weight-bold">
+            <span>Adultos</span>
           </h1>
-        </div>
+        </a>
 
-        <div class="column menu box menu2">
-          <h1 class="subtitle has-text-light vcentrado has-text-weight-bold">
-            <a href="#" id="ninios">Niños</a>
+        <a href="#" id="ninios" class="column menu box menu2">
+          <h1 id="menu2" class="title has-text-light vcentrado has-text-weight-bold">
+            <span>Niños</span>
           </h1>
-        </div>
+        </a>
 
-        <div class="column menu box menu3">
-          <h1
-            class="subtitle has-text-light vcentrado has-text-centered has-text-weight-bold"
+        <a href="#" id="babys" class="column menu box menu3">
+          <h1 id="menu3"
+            class="title has-text-light vcentrado has-text-centered has-text-weight-bold"
           >
-            <a href="#" id="babys">Baby Showers</a>
+            <span>Baby Showers</span>
           </h1>
-        </div>
+        </a>
       </div>
     </div>
 
     <section>
       <div id="visualizador" class="container">
-            <div class="container has-text-centered">
-              <iframe src="https://giphy.com/embed/Kd5smy8jvyr73lMrLw" width="358" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-            </div>
+        <div class="container has-text-centered">
+          <iframe class="is-hidden-mobile"
+            src="./img/giphy.gif"
+            width="480"
+            height="480"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+
+          <iframe class="is-hidden-tablet"
+            src="./img/giphy300.gif"
+            width="300"
+            height="300"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
     </section>
 
@@ -101,9 +115,7 @@
       </div>
       <div class="columns is-centered">
         <div class="column">
-          <p class="has-text-centered subtitle has-text-dark">
-            AMIGURUMIS INC
-          </p>
+          <p class="has-text-centered subtitle has-text-dark">AMIGURUMIS INC</p>
         </div>
       </div>
       <div class="columns is-centered">
@@ -120,6 +132,6 @@
         </p>
       </div>
     </footer>
-
+    
   </body>
 </html>
